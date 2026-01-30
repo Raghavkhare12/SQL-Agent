@@ -1,19 +1,23 @@
 
 ---
 
-# 🧠 Database & SQL Assistant Agent
+#  Database & SQL Assistant Agent
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Database & SQL Assistant Agent** is a CLI-based intelligent system that converts natural language instructions into valid SQL queries, executes them safely on relational databases, explains database schemas and SQL queries, and assists with basic database design.
 
 The project focuses **exclusively** on the *Database & SQL Agent* component of a larger **multi-agent AI architecture**. It is implemented using **LangChain** with an **API-based LLM backend** and is designed for **correctness, safety, and extensibility** rather than UI complexity.
 
 ---
+##  Demo Video
 
-## 🚀 Key Capabilities
+[Click here to watch the demo video](https://drive.google.com/file/d/1o24xIGZ6wNHHFokqgaiGID3eAZwd_ruj/view?usp=sharing)
+
+---
+##  Key Capabilities
 
 * Natural language → SQL query generation
 * Schema-aware query generation
@@ -27,7 +31,7 @@ The project focuses **exclusively** on the *Database & SQL Agent* component of a
 
 ---
 
-## 🔐 Safety Design
+##  Safety Design
 
 The agent includes a **query safety layer** that detects potentially destructive SQL commands such as:
 
@@ -41,7 +45,7 @@ Any such query **requires explicit user confirmation** before execution, prevent
 
 ---
 
-## 🧱 Technology Stack
+##  Technology Stack
 
 * **Language:** Python
 * **Database:** SQLite
@@ -52,7 +56,7 @@ Any such query **requires explicit user confirmation** before execution, prevent
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Database-SQL-Assistant-Agent/
@@ -74,11 +78,11 @@ Database-SQL-Assistant-Agent/
 ├── .gitignore       # Git ignore rules
 ```
 
-> ℹ️ SQLite `.db` files are generated locally and are intentionally excluded from version control.
+>  SQLite `.db` files are generated locally and are intentionally excluded from version control.
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Clone the Repository
 
@@ -120,7 +124,7 @@ python main.py
 
 ---
 
-## 🧪 Supported CLI Commands
+##  Supported CLI Commands
 
 ### 🔹 Database Management
 
@@ -183,7 +187,7 @@ design database for online shopping system
 
 ---
 
-## 🧠 Design Philosophy
+##  Design Philosophy
 
 * LLM used strictly for **reasoning and SQL generation**
 * Actual SQL execution handled programmatically
@@ -193,7 +197,7 @@ design database for online shopping system
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Integration with LangChain `SQLDatabaseToolkit`
 * LangGraph-based multi-agent orchestration
@@ -203,7 +207,7 @@ design database for online shopping system
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Raghav Khare**
 VIT Bhopal University
