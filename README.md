@@ -9,7 +9,7 @@
 
 The **Database & SQL Assistant Agent** is a CLI-based intelligent system that converts natural language instructions into valid SQL queries, executes them safely on relational databases, explains database schemas and SQL queries, and assists with basic database design.
 
-The project focuses **exclusively** on the *Database & SQL Agent* component of a larger **multi-agent AI architecture**. It is implemented using **LangChain** with an **API-based LLM backend** and is designed for **correctness, safety, and extensibility** rather than UI complexity.
+The project focuses **exclusively** on the *Database & SQL Agent* component of a larger **multi-agent AI architecture**. It is implemented using **LangChain** with a **API-based LLM backend** and is designed for **correctness, safety, and extensibility** rather than UI complexity.
 
 ---
 ##  Demo Video
@@ -17,6 +17,7 @@ The project focuses **exclusively** on the *Database & SQL Agent* component of a
 [Click here to watch the demo video](https://drive.google.com/file/d/1o24xIGZ6wNHHFokqgaiGID3eAZwd_ruj/view?usp=sharing)
 
 ---
+
 ##  Key Capabilities
 
 * Natural language → SQL query generation
